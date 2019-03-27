@@ -1,0 +1,80 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+# MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+# The packages folder restored with Package Restore
+**/packages/*
+# build/, used as an MSBuild target.
+!**/packages/build/
+
+*.meta
+*.obj
+*.pch
+*.pdb
+*.tmp
+*.tmp_proj
+*.log
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# ReSharper 
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Other
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+modulesbin/
+tempbin/
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Remainings from resolving conflicts in Source Control
+*.orig
+
+# SQL Server files
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+# Visual Studio 2014 CTP
+**/*.sln.ide
+
+# Visual Studio temp something
+.vs/
+
+# dotnet stuff
+project.lock.json
+
+# VS 2015+
+*.vc.vc.opendb
+*.vc.db
